@@ -27,6 +27,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O aplicativo acessa a biblioteca de imagens do sistema para permitiro usuário selecionar uma imagem."
+        }
+      ]
+    ]
   }
 }
